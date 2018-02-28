@@ -7,8 +7,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y \
   wget
 
 RUN php5enmod interbase
-# RUN cp /etc/php5/conf.d/interbase.ini /etc/php5/mods-available/interbase.ini
-
 
 # add adminer as the only nginx site
 ADD adminer.nginx.conf /etc/nginx/sites-available/adminer
