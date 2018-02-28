@@ -1,3 +1,5 @@
+The stuff below is from the original clue/adminer project. This is a fork extended with the ability to access a firebird database.
+
 # docker-adminer
 
 [Adminer](http://www.adminer.org/en/) is a full-featured database management
